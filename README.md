@@ -12,5 +12,8 @@ Mockito is not recognizing the use of certian mocks in certain conditions
 1. Comment out other test in ConsumerProviderTest.java
 https://github.com/loosebazooka/mockito-failure/blob/master/src/test/java/ConsumerProviderTest.java#L14-L21
 
+1. Instead of the whole test, just comment out the verify in the test (this is enough)
+https://github.com/loosebazooka/mockito-failure/blob/master/src/test/java/ConsumerProviderTest.java#L20
+
 1. Run consumer directly on main thread (ignore executor)
 https://github.com/loosebazooka/mockito-failure/blob/master/src/main/java/Runner.java#L16
